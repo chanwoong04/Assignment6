@@ -38,7 +38,7 @@ class Graph:
         y_female = [female_score[str(score)] for score in x]
 
         # 그래프 설정 (한글 폰트 지원)
-        plt.rcParams['font.family'] = 'Malgun Gothic'  # Windows: Malgun Gothic, macOS: AppleGothic, Linux: NanumGothic
+        plt.rcParams['font.family'] = 'Malgun Gothic'
 
         # 그래프 그리기
         plt.plot(x, y_male, label="남자", color='blue', linestyle='-')
