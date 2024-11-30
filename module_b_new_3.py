@@ -1,7 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 from matplotlib import rc
-from module_a import Categorylist
+from module_a_new_2 import Categorylist
 
 
 class Graph:
